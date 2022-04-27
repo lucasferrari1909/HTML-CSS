@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em css</title>
+    <style>
+        body{
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em ;
+            font-weight: bold ;
+            font-style: italic;
+            text-decoration: underline;
+            /* lighter, normal, bold, bolder*/
+            /* weight(peso), width(largura) heigth(altura)*/
+        }
+        h1{
+            /* shorthand font
+            - font-style -> font-wight -> font-size -> font-family
+f           ont-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'work sans', sans-serif
+                    }
+        h2{
+            font: italic lighter 2em 'work sans', sans-serif
+        }            
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque velit quod nesciunt perspiciatis, dignissimos corrupti cum repudiandae laborum animi deserunt possimus suscipit, dolor repellendus! Aliquid doloremque sint impedit tempora placeat!</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos, fuga mollitia blanditiis ad quibusdam porro perferendis pariatur et cum magni nulla quia eos accusantium itaque voluptas qui error corporis. Consequatur.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit provident sunt voluptatum? Consequuntur iure qui, accusantium voluptatum recusandae eos dolorem culpa nesciunt excepturi nulla explicabo laboriosam aspernatur in alias expedita.</p>
+</body>
+</html>
