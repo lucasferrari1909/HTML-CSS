@@ -1,0 +1,49 @@
+@charset "UTF-8"
+*{}
+*{
+    padding: 0px;
+    margin: 0px
+}
+
+body{
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+header h1{
+    font-size: 5em;
+    
+}
+header p{
+    padding: 5px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+header a:hover{
+    text-decoration: underline;
+    
+}
+
+main{}
+
+section{
+    font-size: 1.8em;
+    line-height: 2em;
+    padding-top: 90px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
